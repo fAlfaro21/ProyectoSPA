@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>The Bridge Health Club</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <h1>The Bridge Health Club</h1>
+      <h2>Vive más y mejor</h2>
+      <p id="theBridgeHeaderText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusamus rerum porro mollitia iure labore, um reiciendis quidem quos.</p>
+      <br>
+      <!-- <a href="index.html" id="theBridgeDateDeAlta">Date de alta</a>
+      <a href="about.html" id="theBridgeDateDeAlta">Actividades Dirigidas</a>
+      <a href="contact.html" id="theBridgeDateDeAlta">Cursos</a>
+      <a href="noticias.html" id="theBridgeDateDeAlta">Noticias</a> -->
+
+      <div class="clearfix">
+
+        <div class="dropdown">
+
+          <div class="theBridgebox" style="background-color:#dfd1a6">
+            <a href="#theBridgeAct1" id="theBridgeDateDeAlta">Date de alta</a>
+
+            <div class="dropdown-content">
+              <a href="#theBridgeAct11">Datos personales</a>
+              <a href="#theBridgeAct12">Datos de contacto</a>
+            </div>
+          
+          </div>
+            
+        </div>
+
+        <div class="theBridgebox" style="background-color:#e0cd92">
+          <a href="#theBridgeAct2" id="theBridgeActDir">Actividades Dirigidas</a>
+        </div>
+        <div class="theBridgebox" style="background-color:rgb(218, 124, 124)">
+          <a href="#theBridgeAct3" id="theBridgeCursos">Cursos</a>
+        </div>
+        <div class="theBridgebox" style="background-color:rgb(224, 54, 54)">
+          <a href="#theBridgeAct4" id="theBridgeNews">Noticias</a>
+        </div>
+      </div>
+
+      <figure>
+        <img src="img/portadaGym.jfif" alt="Imagen portada de gym">
+      </figure>
+    </nav>
+    </header>
+  <!-- /HEADER -->
+  <!-- MAIN -->
+  <main>
+    <br>
+    <section>
+      <h3 id="theBridgeAct1">Date de alta con nosotros</h3>
+      <article class="wrapper">
+        <h4 id="theBridgeAct11">Datos personales</h4>
+        <label for="theBridgeName">Nombre</label>:
+        
+        <input type="text" name="theBridgeName" id="theBridgeName" placeholder="Escribe tu nombre..."><br>
+        
+        <label for="theBridgeFamilyName">Apellidos</label>:
+        <input type="text" name="theBridgeFamilyName" id="theBridgeFamilyName" placeholder="Escribe tus apellidos..."><br>
+        <label for="theBridgeAge">Edad</label>:
+        <input type="number" name="theBridgeAge" id="theBridgeAge" placeholder="Escribe tu edad..."><br>
+        <label for="theBridgeGenderH">Sexo</label>:<br>
+        <input type="radio" name="theBridgeGender" id="theBridgeGenderH" value="H">Hombre<br>
+        <input type="radio" name="theBridgeGender" id="theBridgeGenderM" value="M">Mujer<br>
+        <input type="radio" name="theBridgeGender" id="theBridgeGenderO" value="O">Otro<br>
+        <label for="ladronzuelosTrade">Tipo de documento</label>:
+        <select name="ladronzuelosTrade" id="ladronzuelosTrade">
+          <option value="">--Selecciona el tipo--</option>
+          <option value="specialized">DNI</option>
+          <option value="trek">NIE</option>
+          <option value="merida">Pasaporte</option>
+        </select>
+        <br>
+        <label for="ladronzuelosTrade">Número del documento</label>:
+        <input type="text" name="theBridgeName" id="theBridgeName1" placeholder="Número del documento..."><br>
+      </article>
+      <article class="wrapper">
+      
+        <h4 id="theBridgeAct12">Datos de contacto</h4>
+        <label for="monsterEmail">Correo electrónico</label>
+        <input type="email" name="monsterEmail" id="monsterEmail"><br>
+
+        <label for="theBridgeTel">Teléfono</label>
+        <input type="tel" name="theBridgeTel" id="theBridgeTel" placeholder="Escribe tu teléfono..."  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        <label for="theBridgeFormato">Formato: 123-45-678</label>
+        <br>
+      
+        <input type="checkbox" name="theBridgeMyself" id="theBridgeMyself" value="ok">
+        <label for="theBridgeMyself">Deseo recibir noticias acerca de promociones y descuentos</label><br>
+        
+      </article>
+      <br>
+      <article class="wrapper">
+        <input type="submit" value="Enviar datos">
+        <input type="reset" value="Cancelar">
+      </article>
+
+    </section>
+    <br>
+    
+    
+    <section>
+      <h3 id="theBridgeAct2">Actividades dirigidas</h3>
+      <article>Functional Express
+        <figure class="theBridgeSmallPicture">
+          <img src="img/functionalExpress.jfif" alt="Imagen Functional Express">
+        </figure>
+        <br>
+        <a href="functionalExpress.html">Saber más...</a>
+      </article>
+      <article>Step
+        <figure class="theBridgeSmallPicture">
+          <img src="img/step.jfif" alt="Imagen Step">
+        </figure>
+        <br>
+        <a href="functionalExpress.html">Saber más...</a>
+      </article>
+      <article>Aqua Power
+        <figure class="theBridgeSmallPicture">
+          <img src="img/aquaPower.jfif" alt="Imagen Aqua Power">
+        </figure>
+        <br>
+        <a href="functionalExpress.html">Saber más...</a>
+      </article>
+    </section>
+  
+
+    <section>
+      <h3 id="theBridgeAct3">Cursos</h3>
+      <article>Mindfit
+        <a href="mindFit.html">Saber más...</a>
+      </article>
+      <article>Nadadores
+        <a href="mindFit.html">Saber más...</a>
+      </article>
+    </section>
+
+    <section>
+      <h3 id="theBridgeAct4">Noticias</h3>
+      <article>Noticias1
+      </article>
+      <article>Noticias2
+      </article>
+    </section>
+
+  </main>
+
+  <a href="#" class="backtotop">Volver arriba</a>
+
+  <footer>
+    <small>
+      <a href="nPoliticas.html">Nuestras políticas</a>
+      <a href="nPoliticas.html">Contacta con nosotros</a>
+      <a href="nPoliticas.html">Prensa</a>
+      <a href="nPoliticas.html">Ayuda</a>
+      <a href="nPoliticas.html">Política de cookies</a>
+      <a href="nPoliticas.html">Trabaja con nosotros</a>
+    </small>
+  </footer>
+</body>
+</html>
+
+<!-- Preguntas
+  1. Cuando se insertan varias imágenes (etiqueta img), es necesario que cada una lleve su etiqueta figure? 
+
+
+-->
